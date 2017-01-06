@@ -3,6 +3,7 @@ layout: post
 link: https://medium.dave-bailey.com/why-founders-fail-to-market-their-products-f7c15935c81#.dkde3ohe9
 title_cn: 为什么创始人不会推广他们的产品？
 translate_time: 40
+author: David Bailey
 comments: true
 tags:
 - startup

@@ -30,9 +30,15 @@
         margin: 40px -150px;
     }
     .date {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         color: #939da3;
         text-align: center;
+        a {
+            color: $color-blue;
+            &:hover {
+                color: $color-darkgray;
+            }
+        }
     }
     .post-content {
         font-size: 1.4rem;
@@ -128,7 +134,7 @@
             }
         }
         img {
-            max-width: 80%;
+            max-width: 100%;
             display: block;
             margin: 0 auto 20px;
             text-align: center;

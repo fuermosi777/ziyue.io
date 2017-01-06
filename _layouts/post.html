@@ -4,7 +4,7 @@ layout: default
 
 <div class="Post">
     <h1>{{ page.title_cn }}</h1>
-    <div class="date">{{ page.date | date: "%Y年%m月%d日" }}</div>
+    <div class="date">{{ page.date | date: "%Y年%m月%d日" }} - 原文作者：<a href="">{{ page.author }}{% if page.organization %} at {{ page.organization }}{% endif %}</a></div>
     <div class="post-content">
         {{ content }}
     </div>
