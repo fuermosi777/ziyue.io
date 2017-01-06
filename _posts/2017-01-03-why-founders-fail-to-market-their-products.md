@@ -3,6 +3,8 @@ layout: post
 link: https://medium.dave-bailey.com/why-founders-fail-to-market-their-products-f7c15935c81#.dkde3ohe9
 title_cn: 为什么创始人不会推广他们的产品？
 translate_time: 40
+tags:
+- startup
 ---
 
 > 产品创始人往往会低估营销的重要性——结果是很多初创企业开始意识到推广的问题时早已为时过晚。我有过这样的经历，我也深深思考过究竟为何。

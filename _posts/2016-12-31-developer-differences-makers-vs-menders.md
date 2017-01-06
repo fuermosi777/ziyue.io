@@ -2,6 +2,9 @@
 layout: post
 link: https://dev.to/corgibytes/developer-differences-makers-vs-menders
 title_cn: 程序开发者的区别：创作者和维护者
+translate_time: 30
+tags:
+- 程序员
 ---
 
 当你面对“程序员”这个词的时候，你最先想到的是什么？一个家住在旧金山，在Facebook每天工作23小时的码农？如果是的话，很多人跟你想法相同。软件开发行业跟许多其他行业一样充斥着各种刻板印象。其中最普遍的一个是，所有的开发者，如果有机会的话，都会更倾向选择重新开发一个应用。

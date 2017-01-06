@@ -5,22 +5,38 @@
     background: white;
     border: 1px solid #EAECEE;
     border-radius: 4px;
+    overflow-x: hidden;
     @media (max-width: 420px) {
         padding: 20px;
     }
-
     h1 {
         font-size: 2.8rem;
-        color: $color-darkgray;
         line-height: 1.6;
         font-weight: 300;
         margin-bottom: 20px;
+        text-align: center;
+        a {
+            color: $color-darkgray;
+            &:hover {
+                color: $color-blue;
+            }
+        }
     }
-
+    hr {
+        box-sizing: content-box;
+        height: 0;
+        border: none;
+        border-top: 1px solid #f1f3f3;
+        margin: 40px -150px;
+    }
+    .date {
+        font-size: 1.6rem;
+        color: #939da3;
+        text-align: center;
+    }
     .post-content {
         font-size: 1.4rem;
         color: $color-darkgray;
-
         h2 {
             padding-top: 4rem;
             margin-bottom: 1rem;
@@ -28,7 +44,6 @@
             line-height: 1.4;
             font-weight: 300;
         }
-
         h3 {
             font-size: 1.8rem;
             line-height: 1.25;
@@ -37,38 +52,31 @@
             border-bottom: 1px solid #d6d6d6;
             margin: 0 0 1.2rem;
         }
-
         p {
             padding-top: 2rem;
             line-height: 1.6;
             color: $color-lightgray;
         }
-
         hr {
             background-color: #f4f6f7;
             height: 2px;
             border: 0;
         }
-
         a {
             color: $color-blue;
-
             &:hover {
                 text-decoration: underline;
             }
         }
-
         blockquote {
             background-color: #F7F8F9;
             margin: 30px 0 0;
             padding: 15px;
             border-radius: 4px;
-
             p {
                 padding: 0;
             }
         }
-
         pre {
             font-size: 1.3rem;
             padding: 15px 20px;
@@ -77,7 +85,6 @@
             overflow: auto;
             margin: 15px 0 20px;
         }
-
         code {
             font-family: 'Source Code Pro', monospace;
             border-radius: 2px;
@@ -87,12 +94,10 @@
             padding: 3px 6px;
             background: #F5F7F7;
         }
-
         pre code {
             font-size: 1rem;
             background: transparent;
         }
-
         ol,
         ul {
             margin-top: 20px;
@@ -104,14 +109,12 @@
             ul {
                 margin-top: 0;
             }
-
             li {
                 margin: 8px 0;
                 padding-left: 30px;
                 line-height: 1.4;
                 list-style: none;
                 position: relative;
-
                 &:before {
                     content: "";
                     position: absolute;
@@ -124,12 +127,19 @@
                 }
             }
         }
-
         img {
             max-width: 80%;
             display: block;
             margin: 0 auto 20px;
             text-align: center;
+        }
+    }
+    .original {
+        margin: 20px 0;
+        font-size: 1.6rem;
+        color: #939da3;
+        a {
+            color: $color-blue;
         }
     }
 }

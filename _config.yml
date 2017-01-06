@@ -15,8 +15,8 @@ url: "http://ziyue.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-paginate: 1
-paginate_path: /:num/
+paginate: 3
+paginate_path: "/:num/"
 
 gems:
   - jekyll-sitemap
