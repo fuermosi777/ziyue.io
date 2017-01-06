@@ -3,6 +3,7 @@ layout: post
 link: https://blog.nelhage.com/2016/03/design-for-testability/
 title_cn: 一切为了测试
 translate_time: 40
+comments: true
 tags:
 - 单元测试
 ---

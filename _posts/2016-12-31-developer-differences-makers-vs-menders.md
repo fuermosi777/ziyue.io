@@ -3,6 +3,7 @@ layout: post
 link: https://dev.to/corgibytes/developer-differences-makers-vs-menders
 title_cn: 程序开发者的区别：创作者和维护者
 translate_time: 30
+comments: true
 tags:
 - 程序员
 ---
