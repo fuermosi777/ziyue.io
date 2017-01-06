@@ -1,0 +1,40 @@
+.Nav {
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .logo,
+    .primary {
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        justify-content: center;
+        width: 100px;
+    }
+    .secondary {
+        width: 100px;
+    }
+    .logo {
+        a {
+            color: #8898AA;
+            font-size: 2rem;
+            font-weight: 700;
+            &:hover {
+                color: $color-blue;
+            }
+        }
+    }
+    .primary {
+        justify-content: center;
+        a {
+            margin: 0 15px;
+            color: $color-gray;
+            font-size: 1.6rem;
+            &:hover {
+                color: $color-blue;
+            }
+        }
+    }
+}
