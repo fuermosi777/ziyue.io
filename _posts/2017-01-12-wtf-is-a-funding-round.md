@@ -4,7 +4,7 @@ link: https://techcrunch.com/2017/01/08/wtf-is-a-funding-round/
 title_cn: 到底啥是“一轮融资”？
 translate_time: 50
 comments: true
-author: Katie_Roof
+author: Katie Roof
 organization: TechCrunch
 tags:
 - funding
